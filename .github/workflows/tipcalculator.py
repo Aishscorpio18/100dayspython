@@ -8,6 +8,10 @@ total_bill=float(total_bill)
 split_bill=float(split_bill)
 #print(type(total_bill))
 #print(type(split_bill))
+#bill_with_tip=tip/100*bill+bill(or) bill*(1+tip/100)
+#tip_as_percent=tip/100
+#total_tip_amount=bill*tip_as_percent
+#total_bill=bill+total_tip_amount
 each_bill=total_bill/split_bill*(1+tip/100)
 each_bill=round(each_bill,2)
 print(f"Each person should pay: {each_bill}")
